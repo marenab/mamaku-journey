@@ -58,7 +58,458 @@
       });
 
       // Store journey points  GeoJSON as a variable 
-          var moorings = {"type":"FeatureCollection","features":[{"type":"Feature","properties":{"Name":"Hidden Harbour Marine Centre, Victoria","URL":"https://mamakusailing.com/2017/03/20/log-of-the-sy-mamaku/","Photo":"https://www.instagram.com/p/BVJFU9bhQpM/?taken-by=mamaku_sailing","Text":""},"geometry":{"type":"Point","coordinates":[-123.3982710, 48.4272712]}},{"type":"Feature","properties":{"Name":"Cadboro Bay mooring","URL":"https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-123.2965278,48.4546111]}},{"type":"Feature","properties":{"Name":"Pender Islnd, Bedwell Harbour","URL":"https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-123.2358333,48.7506667]}},{"type":"Feature","properties":{"Name":"Ruxton Island","URL":"https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-123.7146389,49.0831944]}},{"type":"Feature","properties":{"Name":"Porlier pass","URL":"https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-123.7024444,49.1290278]}},{"type":"Feature","properties":{"Name":"Malaspina strait","URL":"https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-124.2015278,49.6365]}},{"type":"Feature","properties":{"Name":"Savary Island","URL":"https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-124.8399167,49.9429722]}},{"type":"Feature","properties":{"Name":"Teakerne Arm, West Redonda Island","URL":"https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-124.8478333,50.1965]}},{"type":"Feature","properties":{"Name":"Cortes Island","URL":"https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-124.9773056,50.1959444]}},{"type":"Feature","properties":{"Name":"Yuculta Rapids","URL":"https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-125.1499444,50.3764444]}},{"type":"Feature","properties":{"Name":"Sonora Island","URL":"https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-125.3170278,50.366]}},{"type":"Feature","properties":{"Name":"Johnston Strait","URL":"https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-126.0220278,50.453]}},{"type":"Feature","properties":{"Name":"Matilpi","URL":"https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-126.1938333,50.5522778]}},{"type":"Feature","properties":{"Name":"Beware Passage","URL":"https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-126.5083889,50.5783056]}},{"type":"Feature","properties":{"Name":"Harbledown Island","URL":"https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-126.6471111,50.5895556]}},{"type":"Feature","properties":{"Name":"Echo bay, Gilford Island","URL":"https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-126.4956667,50.7515556]}},{"type":"Feature","properties":{"Name":"Broughton Archipelago","URL":"https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-126.69,50.7351944]}},{"type":"Feature","properties":{"Name":"Port Hardy","URL":"https://mamakusailing.com/2017/07/25/land-time-hiking-the-north-coast-trail-and-cape-scott/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-127.4771389,50.7259167]}},{"type":"Feature","properties":{"Name":"Bull Habour","URL":"https://mamakusailing.com/2017/08/15/around-vancouver-island-part-3-rounding-cape-scott-to-sea-otter-cove/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-127.9356944,50.9031944]}},{"type":"Feature","properties":{"Name":"Sea Otter Cove","URL":"https://mamakusailing.com/2017/08/15/around-vancouver-island-part-3-rounding-cape-scott-to-sea-otter-cove/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-128.3495833,50.6849444]}},{"type":"Feature","properties":{"Name":"Winter Harbour","URL":"","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-128.0225833,50.5220556]}},{"type":"Feature","properties":{"Name":"Klaskino Inlet","URL":"https://mamakusailing.com/2017/08/22/around-vancouver-island-part-4-brooks-peninsula-and-our-first-beach-clean-up/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-127.7895833,50.3198056]}},{"type":"Feature","properties":{"Name":"Columbia Cove","URL":"https://mamakusailing.com/2017/08/22/around-vancouver-island-part-4-brooks-peninsula-and-our-first-beach-clean-up/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-127.6884032,50.1366209]}},{"type":"Feature","properties":{"Name":"Rugged Point, Tatchu Peninsula","URL":"https://mamakusailing.com/2017/09/06/round-vancouver-island-part-5-tatchu-peninsula-and-catching-our-first-salmon/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-127.2542026,49.9659672]}},{"type":"Feature","properties":{"Name":"Mary Basin, Nuchatlitz Inlet, Nootka Island","URL":"https://mamakusailing.com/2017/09/27/round-vancouver-island-part-6-caves-shipwrecks-storms-and-waves/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-126.8450767,49.7912565]}},{"type":"Feature","properties":{"Name":"Louis Bay, Nuchatlitz Inlet, Nootka Island","URL":"https://mamakusailing.com/2017/09/27/round-vancouver-island-part-6-caves-shipwrecks-storms-and-waves/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-126.9217354,49.753174]}},{"type":"Feature","properties":{"Name":"Hot Springs Cove, Openit Peninsula","URL":"https://mamakusailing.com/2017/11/26/around-vancouver-island-part-7-nootka-reefs-waterfalls-and-hot-springs/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-126.2648351,49.3620885]}},{"type":"Feature","properties":{"Name":"Blunden Island","URL":"https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-126.0531466,49.1801815]}},{"type":"Feature","properties":{"Name":"Vargas Island","URL":"https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-125.987754,49.1517514]}},{"type":"Feature","properties":{"Name":"Tofino","URL":"https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-125.9119015,49.1506772]}},{"type":"Feature","properties":{"Name":"Cox Bay","URL":"https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-125.8835176,49.1045088]}},{"type":"Feature","properties":{"Name":"Florencia Bay","URL":"https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-125.6466525,49.0016553]}},{"type":"Feature","properties":{"Name":"Ucluelet","URL":"https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-125.5545078,48.9454804]}},{"type":"Feature","properties":{"Name":"Broken Group Islands, Barkley Sound","URL":"https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/","Photo":"","Text":""},"geometry":{"type":"Point","coordinates":[-125.2710739,48.9380588]}},{"type":"Feature","properties":{"Name":"Victoria","URL":"https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/","Photo":""},"geometry":{"type":"Point","coordinates":[-123.39825,48.4275556]}}]};
+          var moorings = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Hidden Harbour Marine Centre, Victoria",
+        "URL": "https://mamakusailing.com/2017/03/20/log-of-the-sy-mamaku/",
+        "Photo": "https://www.instagram.com/p/BVJFU9bhQpM/?taken-by=mamaku_sailing",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.398271,
+          48.4272712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cadboro Bay mooring",
+        "URL": "https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/",
+        "Photo": "https://www.instagram.com/p/BU8VEeLhv9p/?taken-by=mamaku_sailing",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2965278,
+          48.4546111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pender Island, Bedwell Harbour",
+        "URL": "https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/",
+        "Photo": "https://mamakustories.files.wordpress.com/2017/07/dsc04719.jpg",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2358333,
+          48.7506667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ruxton Island",
+        "URL": "https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/",
+        "Photo": "",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.7146389,
+          49.0831944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Savary Island",
+        "URL": "https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/",
+        "Photo": "",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.8399167,
+          49.9429722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Teakerne Arm, West Redonda Island",
+        "URL": "https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/",
+        "Photo": "https://www.instagram.com/p/BWLqL_OBdoz/?taken-by=mamaku_sailing",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.8478333,
+          50.1965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cortes Island",
+        "URL": "https://mamakusailing.com/2017/07/14/around-vancouver-island-part-1-departing-victoria-to-desolation-sound/",
+        "Photo": "https://mamakustories.files.wordpress.com/2017/07/img_3264.jpg",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.9773056,
+          50.1959444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Yuculta Rapids",
+        "URL": "https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/",
+        "Photo": "https://mamakustories.files.wordpress.com/2017/07/img_3373.jpg",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.1499444,
+          50.3764444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sonora Island",
+        "URL": "https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/",
+        "Photo": "https://www.instagram.com/p/BWdn2MlBBq1/?taken-by=mamaku_sailing",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.3170278,
+          50.366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Johnston Strait",
+        "URL": "https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/",
+        "Photo": "https://mamakustories.files.wordpress.com/2017/07/dsc05064.jpg",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.0220278,
+          50.453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Harbledown Island",
+        "URL": "https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/",
+        "Photo": "",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.6471111,
+          50.5895556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Echo bay, Gilford Island",
+        "URL": "https://mamakusailing.com/2017/07/23/around-vancouver-island-part-2-desolation-sound-to-the-broughton-archipelago/",
+        "Photo": "https://mamakustories.files.wordpress.com/2017/07/img_3425.jpg",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.4956667,
+          50.7515556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Port Hardy",
+        "URL": "https://mamakusailing.com/2017/07/25/land-time-hiking-the-north-coast-trail-and-cape-scott/",
+        "Photo": "",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.4771389,
+          50.7259167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bull Habour",
+        "URL": "https://mamakusailing.com/2017/08/15/around-vancouver-island-part-3-rounding-cape-scott-to-sea-otter-cove/",
+        "Photo": "",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.9356944,
+          50.9031944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sea Otter Cove",
+        "URL": "https://mamakusailing.com/2017/08/15/around-vancouver-island-part-3-rounding-cape-scott-to-sea-otter-cove/",
+        "Photo": "https://mamakustories.files.wordpress.com/2017/08/img_3526.jpg",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.3495833,
+          50.6849444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Winter Harbour",
+        "URL": "https://mamakusailing.com/2017/08/15/around-vancouver-island-part-3-rounding-cape-scott-to-sea-otter-cove/",
+        "Photo": "",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.0225833,
+          50.5220556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Klaskino Inlet",
+        "URL": "https://mamakusailing.com/2017/08/22/around-vancouver-island-part-4-brooks-peninsula-and-our-first-beach-clean-up/",
+        "Photo": "https://www.instagram.com/p/BYxC-SbBduJ/?taken-by=mamaku_sailing",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.7895833,
+          50.3198056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Columbia Cove",
+        "URL": "https://mamakusailing.com/2017/08/22/around-vancouver-island-part-4-brooks-peninsula-and-our-first-beach-clean-up/",
+        "Photo": "https://mamakustories.files.wordpress.com/2017/08/img_3704.jpg",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6884032,
+          50.1366209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Rugged Point, Tatchu Peninsula",
+        "URL": "https://mamakusailing.com/2017/09/06/round-vancouver-island-part-5-tatchu-peninsula-and-catching-our-first-salmon/",
+        "Photo": "https://mamakustories.files.wordpress.com/2017/09/dsc07326.jpg",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.2542026,
+          49.9659672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mary Basin, Nuchatlitz Inlet, Nootka Island",
+        "URL": "https://mamakusailing.com/2017/09/27/round-vancouver-island-part-6-caves-shipwrecks-storms-and-waves/",
+        "Photo": "https://mamakustories.files.wordpress.com/2017/09/img_3547.jpg",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.8450767,
+          49.7912565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Louis Bay, Nuchatlitz Inlet, Nootka Island",
+        "URL": "https://mamakusailing.com/2017/09/27/round-vancouver-island-part-6-caves-shipwrecks-storms-and-waves/",
+        "Photo": "https://mamakustories.files.wordpress.com/2017/09/dsc07472.jpg",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.9217354,
+          49.753174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Hot Springs Cove, Openit Peninsula",
+        "URL": "https://mamakusailing.com/2017/11/26/around-vancouver-island-part-7-nootka-reefs-waterfalls-and-hot-springs/",
+        "Photo": "https://mamakustories.files.wordpress.com/2017/11/20934161_1693466957629015_563526671280551349_o.jpg?w=435&h=290",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.2648351,
+          49.3620885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Blunden Island",
+        "URL": "https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/",
+        "Photo": "",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.0531466,
+          49.1801815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Vargas Island",
+        "URL": "https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/",
+        "Photo": "https://mamakustories.files.wordpress.com/2018/01/img_3976.jpg",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.987754,
+          49.1517514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tofino",
+        "URL": "https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/",
+        "Photo": "",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.9119015,
+          49.1506772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ucluelet",
+        "URL": "https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/",
+        "Photo": "https://mamakustories.files.wordpress.com/2018/01/img_3998.jpg",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.5545078,
+          48.9454804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Broken Group Islands, Barkley Sound",
+        "URL": "https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/",
+        "Photo": "https://mamakustories.files.wordpress.com/2018/01/img_4039.jpg?w=386&h=257",
+        "Text": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.2710739,
+          48.9380588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Victoria",
+        "URL": "https://mamakusailing.com/2018/01/27/around-vancouver-island-part-8-vargas-island-tsunami-debris-and-the-journey-home/",
+        "Photo": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.39825,
+          48.4275556
+        ]
+      }
+    }
+  ]
+};
 
     // add markers to map
     moorings.features.forEach(function(marker) {

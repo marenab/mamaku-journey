@@ -58,6 +58,12 @@
       // Get a token from mapbox.com/studio/account/tokens
       mapboxgl.accessToken = 'pk.eyJ1IjoibWFyZW5hYiIsImEiOiJjajV2ajVyZXUwMnN3MzNwNzR3Ynk2cjIyIn0.sI-ynx23EEdpZFbEDu6qjA'; // replace this with your access token
 
+      // Set bounds
+    var bounds = [
+    [-133.61572265625, 45.62940492064501], // Southwest coordinates
+    [-118.76220703125001, 53.74871079689897]  // Northeast coordinates
+    ];
+      
       var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/marenab/cje3at2jv0i2b2slggsvy2svp', // replace this with your style URL
